@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Сметное дело — составление и проверка смет, сопровождение экспертизы</title>
+<meta name="description" content="Сметчик под ключ: сметная документация на строительство и капитальный ремонт, ИТП и инженерные системы. Гранд-Смета, ФЕР/ТЕР, ГЭСН. Проверка смет подрядчика, сопровождение негосударственной экспертизы.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ======================= HEADER ======================= -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">СД</span>
+      <span class="logo-text">Сметное&nbsp;дело<em>инженер-сметчик · ПТО</em></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#process">Процесс</a>
+      <a href="#expertise">Экспертиза</a>
+      <a href="#prices">Тарифы</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-solid btn-nav" href="https://t.me/alex_shmelev" target="_blank" rel="noopener">Задать вопрос</a>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ======================= HERO ======================= -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-left">
+      <p class="overline reveal">СМЕТНАЯ ДОКУМЕНТАЦИЯ · ФЕР/ТЕР · ГЭСН · ГРАНД-СМЕТА</p>
+      <h1 class="reveal" style="--d:.08s">Сметы, которые<br>проходят <span class="accent">экспертизу</span></h1>
+      <p class="lead reveal" style="--d:.16s">Составление и проверка сметной документации на строительство
+        и капитальный ремонт — тепловые пункты, отопление, вентиляция, водоснабжение, электроснабжение.
+        Веду смету от ведомости объёмов до положительного заключения экспертизы.</p>
+      <div class="hero-actions reveal" style="--d:.24s">
+        <a class="btn btn-solid" href="https://t.me/alex_shmelev" target="_blank" rel="noopener">Рассчитать стоимость сметы</a>
+        <a class="btn btn-ghost" href="#process">Как я работаю</a>
+      </div>
+      <ul class="hero-facts reveal" style="--d:.32s">
+        <li><b>3–7 дней</b>срок сметы на типовой объект</li>
+        <li><b>9 из 10</b>смет проходят проверку с первого раза</li>
+        <li><b>до 18%</b>снижение стоимости при проверке смет подрядчика</li>
+      </ul>
+    </div>
+
+    <aside class="hero-right reveal" style="--d:.2s">
+      <div class="stamp-card" aria-label="Основная надпись документа">
+        <div class="stamp-title">ОСНОВНАЯ НАДПИСЬ</div>
+        <div class="stamp-row"><span>Шифр</span><b>СМ-2026-0117/ИТП</b></div>
+        <div class="stamp-row"><span>Объект</span><b>Кап. ремонт ИТП</b></div>
+        <div class="stamp-row"><span>Стадия</span><b>Р · смета</b></div>
+        <div class="stamp-row"><span>Норматив</span><b>ФСНБ-2022 · ФЕР</b></div>
+        <div class="stamp-row"><span>Статус</span><b class="ok">Проверка пройдена</b></div>
+        <div class="stamp-sign">Составил: инженер-сметчик</div>
+      </div>
+
+      <div class="estimate-card" aria-label="Фрагмент локальной сметы">
+        <div class="estimate-head">ЛС №01-01-04 · фрагмент</div>
+        <table>
+          <thead><tr><th>№</th><th>Обоснование</th><th>Наименование</th><th>Ед.</th><th>Кол.</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>ФЕРр-2020-01</td><td>Демонтаж узлов ввода теплосети</td><td>т</td><td>2,40</td></tr>
+            <tr><td>2</td><td>ФЕРм-2020-08</td><td>Теплообменник пластинчатый, монтаж</td><td>шт</td><td>2,00</td></tr>
+            <tr><td>3</td><td>ФЕРм-2020-11</td><td>Насос циркуляционный, установка</td><td>шт</td><td>3,00</td></tr>
+            <tr><td>4</td><td>ФЕРм-2020-19</td><td>Узел учёта тепла, комплект</td><td>компл</td><td>1,00</td></tr>
+            <tr><td>5</td><td>ФЕРр-2020-44</td><td>Изоляция трубопроводов, ППУ</td><td>м³</td><td>6,80</td></tr>
+            <tr class="total"><td colspan="4">Итого по смете, тыс. руб.</td><td>1 284,6</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ======================= NUMBERS ======================= -->
+<section class="numbers">
+  <div class="container numbers-grid">
+    <div class="num reveal"><span class="num-val" data-count="64" data-suffix="+">0</span><span class="num-label">смет защищено<br>в экспертизах</span></div>
+    <div class="num reveal" style="--d:.08s"><span class="num-val" data-count="8" data-suffix=" лет">0</span><span class="num-label">практика в сметном<br>деле и ПТО</span></div>
+    <div class="num reveal" style="--d:.16s"><span class="num-val" data-count="18" data-prefix="до " data-suffix="%">0</span><span class="num-label">экономии при проверке<br>чужих смет</span></div>
+    <div class="num reveal" style="--d:.24s"><span class="num-val" data-count="5" data-suffix=" дн.">0</span><span class="num-label">средний срок<br>локальной сметы</span></div>
+  </div>
+</section>
+
+<!-- ======================= SERVICES ======================= -->
+<section class="section" id="services">
+  <div class="container">
+    <p class="sec-tag reveal">РАЗДЕЛ 01</p>
+    <h2 class="reveal" style="--d:.06s">Услуги сметчика — под ключ</h2>
+    <p class="sec-lead reveal" style="--d:.12s">Беру на себя сметную часть полностью: от сбора объёмов до защиты цифр перед экспертом. Работаю по проектам заказчика и по своему обмеру.</p>
+
+    <div class="cards">
+      <article class="card reveal">
+        <span class="card-num">01</span>
+        <h3>Составление смет</h3>
+        <p>Локальные и объектные сметы на строительство, ремонт и реконструкцию. ФЕР/ТЕР, ГЭСН, ресурсный метод. Гранд-Смета, АВС, вывод в нужный формат.</p>
+      </article>
+      <article class="card reveal" style="--d:.06s">
+        <span class="card-num">02</span>
+        <h3>Сметы на капремонт и инженерку</h3>
+        <p>Капитальный ремонт зданий, ИТП, теплоснабжение, вентиляция, водопровод и канализация, электрика. Накладные расходы, сметная прибыль, лимитированные затраты — по нормативам.</p>
+      </article>
+      <article class="card reveal" style="--d:.12s">
+        <span class="card-num">03</span>
+        <h3>Проверка смет подрядчика</h3>
+        <p>Независимая проверка принятых расценок, объёмов и коэффициентов. Нахожу завышения и «лишние» работы — типичная экономия 10–18% от суммы.</p>
+      </article>
+      <article class="card reveal" style="--d:.18s">
+        <span class="card-num">04</span>
+        <h3>Сопровождение экспертизы</h3>
+        <p>Негосударственная и коммерческая экспертиза сметной документации: комплектование состава, ответы на замечания, защита расценок и объёмов до положительного заключения.</p>
+      </article>
+      <article class="card reveal" style="--d:.24s">
+        <span class="card-num">05</span>
+        <h3>Ведомости объёмов и КС</h3>
+        <p>Ведомости объёмов работ по проекту и дефектным ведомостям, акты КС-2, справки КС-3, ресурсы по итогам — для планирования и закрытия периодов.</p>
+      </article>
+      <article class="card reveal" style="--d:.3s">
+        <span class="card-num">06</span>
+        <h3>Обмер и дефицитовка</h3>
+        <p>Выезд на объект, обмеры, фотофиксация, восстановление объёмов по исполнительным схемам. Работаю с тем, что реально есть на площадке.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= PROCESS (dark) ======================= -->
+<section class="section dark" id="process">
+  <div class="container">
+    <p class="sec-tag reveal">РАЗДЕЛ 02</p>
+    <h2 class="reveal" style="--d:.06s">Процесс: от исходников до заключения</h2>
+
+    <ol class="steps">
+      <li class="step reveal">
+        <span class="step-num">01</span>
+        <div><h3>Исходные данные</h3><p>Присылаете проект, ведомости или обмеры — разбираю состав работ, уточняю спорные узлы. Формат связи: Telegram, почта, любой облако.</p></div>
+      </li>
+      <li class="step reveal" style="--d:.06s">
+        <span class="step-num">02</span>
+        <div><h3>Объёмы и дефицитовка</h3><p>Считаю ведомость объёмов по чертежам или своим обмерам. Согласовываю с вами список работ — чтобы в смете не было «лишнего» и не пропало нужного.</p></div>
+      </li>
+      <li class="step reveal" style="--d:.12s">
+        <span class="step-num">03</span>
+        <div><h3>Расценки и нормативы</h3><p>Подбираю ФЕР/ТЕР или ГЭСН под регион строительства, применяю индексы, НР и СП, лимитированные затраты. Соблюдаю методологию Минстроя.</p></div>
+      </li>
+      <li class="step reveal" style="--d:.18s">
+        <span class="step-num">04</span>
+        <div><h3>Внутренняя проверка</h3><p>Прогоняю смету «глазами эксперта»: соответствие расценок работам, обоснованность коэффициентов, полнота состава. Сдаю файл Гранд-Сметы + PDF + пояснения.</p></div>
+      </li>
+      <li class="step reveal" style="--d:.24s">
+        <span class="step-num">05</span>
+        <div><h3>Экспертиза и защита</h3><p>При необходимости комплектую состав для экспертизы, готовлю ответы на замечания, защищаю объёмы и расценки — до положительного заключения.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ======================= EXPERTISE ======================= -->
+<section class="section" id="expertise">
+  <div class="container">
+    <p class="sec-tag reveal">РАЗДЕЛ 03</p>
+    <h2 class="reveal" style="--d:.06s">Что обычно режет экспертиза — и как я это закрываю</h2>
+    <p class="sec-lead reveal" style="--d:.12s">Большинство замечаний повторяются от проверки к проверке. Эти же ошибки я вычищаю ещё на своей внутренней проверке — поэтому сметы проходят с первого раза.</p>
+
+    <div class="table-wrap reveal" style="--d:.16s">
+      <table class="compare-table">
+        <thead><tr><th>Типовое замечание</th><th>Моё решение на этапе составления</th></tr></thead>
+        <tbody>
+          <tr><td>Расценка не соответствует составу работ</td><td>Проверяю состав затрат каждой расценки по ГЭСН, подбираю обоснованный аналог</td></tr>
+          <tr><td>Необоснованные коэффициенты к нормам</td><td>Применяю только документально подтверждённые коэффициенты, с ссылками</td></tr>
+          <tr><td>Объёмы не бьются с проектом</td><td>Сверяю объёмы с ведомостями и чертежами, расхождение — в пояснительную записку</td></tr>
+          <tr><td>Неполный состав документации</td><td>Комплектую по требованию конкретной экспертизы — заранее запрашиваю методичку</td></tr>
+          <tr><td>Завышенные лимитированные затраты</td><td>Пересчитываю НР, СП, временные здания, зимние удорожания по актуальным нормативам</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= PRICES ======================= -->
+<section class="section" id="prices">
+  <div class="container">
+    <p class="sec-tag reveal">РАЗДЕЛ 04</p>
+    <h2 class="reveal" style="--d:.06s">Тарифы</h2>
+    <p class="sec-lead reveal" style="--d:.12s">Цена фиксируется до начала работ и не меняется. Ориентир для больших объектов: 0,3–0,8% от стоимости СМР по смете.</p>
+
+    <div class="prices-grid">
+      <article class="price reveal">
+        <h3>Смета на объект</h3>
+        <p class="price-val">от 6 000 ₽</p>
+        <ul>
+          <li>Локальная смета по проекту или ведомости</li>
+          <li>ФЕР/ТЕР или ресурсный метод</li>
+          <li>Файл Гранд-Сметы + PDF + пояснения</li>
+          <li>Срок 3–7 дней</li>
+        </ul>
+        <a class="btn btn-ghost btn-wide" href="https://t.me/alex_shmelev" target="_blank" rel="noopener">Обсудить смету</a>
+      </article>
+      <article class="price price-hot reveal" style="--d:.08s">
+        <span class="price-flag">Чаще всего берут</span>
+        <h3>Проверка сметы</h3>
+        <p class="price-val">от 8 000 ₽</p>
+        <ul>
+          <li>Независимая экспертиза чужой сметы</li>
+          <li>Проверка расценок, объёмов, коэффициентов</li>
+          <li>Заключение с таблицей разногласий</li>
+          <li>Оценка возможной экономии</li>
+        </ul>
+        <a class="btn btn-solid btn-wide" href="https://t.me/alex_shmelev" target="_blank" rel="noopener">Проверить смету</a>
+      </article>
+      <article class="price reveal" style="--d:.16s">
+        <h3>Экспертиза под ключ</h3>
+        <p class="price-val">от 20 000 ₽</p>
+        <ul>
+          <li>Комплектование состава документации</li>
+          <li>Сопровождение негос. экспертизы</li>
+          <li>Ответы на замечания, защита цифр</li>
+          <li>До положительного заключения</li>
+        </ul>
+        <a class="btn btn-ghost btn-wide" href="https://t.me/alex_shmelev" target="_blank" rel="noopener">Взять под ключ</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= FAQ ======================= -->
+<section class="section section-tight" id="faq">
+  <div class="container">
+    <p class="sec-tag reveal">РАЗДЕЛ 05</p>
+    <h2 class="reveal" style="--d:.06s">Частые вопросы</h2>
+
+    <div class="faq">
+      <details class="reveal"><summary>Что нужно для расчёта стоимости сметы?</summary><p>Проект (даже черновой), ведомость объёмов или обмеры, регион строительства и желаемый метод (ФЕР/ТЕР или ресурсный). По фото объекта скажу состав работ и цену за 1 рабочий день.</p></details>
+      <details class="reveal" style="--d:.05s"><summary>Работаете с регионами?</summary><p>Да. Использую ТЕР своего региона при наличии, ФЕР и индексы — по региону объекта. Сопровождение экспертизы ведётся дистанционно.</p></details>
+      <details class="reveal" style="--d:.1s"><summary>Можно ли ускорить?</summary><p>Да, есть срочный тариф: смета за 48 часов с надбавкой 50%. Беру срочные работы, только если точно успеваю без потери качества.</p></details>
+      <details class="reveal" style="--d:.15s"><summary>Как оформляется сотрудничество?</summary><p>Для юрлиц и ИП — договор и акты, работаю как самозанятый или через ИП. Для частных заказчиков — предоплата 50%, остальное по приёмке файлов.</p></details>
+      <details class="reveal" style="--d:.2s"><summary>Даете ли гарантию прохождения экспертизы?</summary><p>Да: устраняю замечания по своей смете без доплаты до положительного заключения. Это входит в стоимость сопровождения.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CTA ======================= -->
+<section class="cta">
+  <div class="container cta-inner">
+    <div>
+      <h2>Пришлите ведомость — назову цену сметы за час</h2>
+      <p>Опишите объект в Telegram: тип работ, регион, есть ли проект. Отвечаю с оценкой состава работ, стоимости и срока.</p>
+    </div>
+    <a class="btn btn-solid btn-big" href="https://t.me/alex_shmelev" target="_blank" rel="noopener">Написать в Telegram</a>
+  </div>
+</section>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <span class="footer-brand">СД · Сметное дело</span>
+    <span class="footer-mono">ШИФР СТР. СМ-2026 · СТАТУС: ПРИНИМАЮ ЗАКАЗЫ</span>
+    <a href="https://t.me/alex_shmelev" target="_blank" rel="noopener">t.me/alex_shmelev</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
